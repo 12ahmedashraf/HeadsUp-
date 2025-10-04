@@ -1,0 +1,13 @@
+.navBarLeft{
+    display: flex;
+    align-items: center;
+}
+.navBarLeft img{
+    width: 40px;
+    height: 40px;
+    margin-right: 7px;
+}
+.navBarLeft p{
+    font-size: 20px;
+  color: #ffdd00;
+}
