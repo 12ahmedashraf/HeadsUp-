@@ -7,9 +7,8 @@
   justify-content: space-evenly;
   font-family: 'Trebuchet MS' ,sans-serif;
 }
-
 .welcomePage{
-  color: #ffdd00;
+  color: #ffffff; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,7 +20,7 @@
   margin: 0;
 }
 .startMenuTitles h2{
-  font-size: 48;
+  font-size: 50;
   margin: 0;
 }
 .startMenu{
@@ -41,4 +40,64 @@
   height: 3rem;
   font-size: large;
 }
+.gamePageUp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+}
+.gamePageUp h2{
+  color: #ffff;
+  font-size: xx-large;
+}
+.gamePageUp p{
+  color: #ffff;
+  font-size: large;
+}
+.controls{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.options{
+  display: flex;
+   gap: 10%;
+  justify-content: center;
+  margin-bottom: 30vh;
+}
+.controls button{
+    background-color: transparent;
+    border-width: 4px;
+    border-color: #ffdd00;
+    color: #ffdd00;
+    cursor: pointer;
+}
+.coin {
+  width: 140px;
+  height: 140px;
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  margin: 40px auto;
+}
+
+.coin-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 26px;
+  color: #fff;
+  backface-visibility: hidden;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+  background: radial-gradient(circle at 30% 30%, #FFD700, #8B5A2B);
+}
+.coin-face.back {
+  transform: rotateY(180deg);
+  background: radial-gradient(circle at 70% 70%, #C19A6B, #8a4c00 80%);
+}
