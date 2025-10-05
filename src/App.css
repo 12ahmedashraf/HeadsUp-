@@ -67,11 +67,13 @@
   margin-bottom: 30vh;
 }
 .controls button{
-    background-color: transparent;
-    border-width: 4px;
+     background-color: transparent;
+    border-width: 5px;
     border-color: #ffdd00;
     color: #ffdd00;
     cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 18px;
 }
 .coin {
   width: 140px;
@@ -94,10 +96,49 @@
   font-size: 26px;
   color: #fff;
   backface-visibility: hidden;
-  box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
-  background: radial-gradient(circle at 30% 30%, #FFD700, #8B5A2B);
+  box-shadow: 0 0 20px rgba(255, 217, 2, 0.4);
+background: radial-gradient(circle at 70% 70%, #ffd700, #b8860b 80%);
 }
 .coin-face.back {
   transform: rotateY(180deg);
-  background: radial-gradient(circle at 70% 70%, #C19A6B, #8a4c00 80%);
+background: radial-gradient(circle at 70% 70%, #ffd700, #b8860b 80%);
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.ShopPage {
+  text-align: center;
+  padding: 0px;
+  color: white;
+  min-height: 100vh;
+}
+.shop-section {
+  margin: 40px 0;
+}
+.shop-section h2 {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ffd700;
+  font-size: 1.5rem;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+}
+.products
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 25px;
+  justify-items: center;
+}
+.back{
+  background-color: transparent;
+    border-width: 5px;
+    border-color: #ffdd00;
+    color: #ffdd00;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 18px;
 }

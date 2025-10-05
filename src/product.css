@@ -1,0 +1,18 @@
+.owned-btn {
+  background: #777;
+  color: white;
+  cursor: not-allowed;
+}
+.use-btn {
+  background: #ffd700;
+  color: black;
+}
+.disabled-btn {
+  background: #000000;
+  color: #aaa;
+  cursor: not-allowed;
+}
+.product-img{
+    width: 150px;
+    height: 140px;
+}
