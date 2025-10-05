@@ -10,7 +10,7 @@ function App() {
   const [result, setResult] = useState("Heads");
   const [message, setMessage] = useState("");
   const [shopOpen, setShopOpen] = useState(false);
-  const [coinStyle, setCoinStyle] = useState(() => localStorage.getItem("coinStyle") || "gold");
+  const [coinStyle, setCoinStyle] = useState(() => localStorage.getItem("coinStyle") || "black");
   const [themeStyle, setThemeStyle] = useState(() => localStorage.getItem("themeStyle") || "default");
   const [badgeStyle, setBadgeStyle] = useState(() => localStorage.getItem("badgeStyle") || "");
   const coinRef = useRef(null);
